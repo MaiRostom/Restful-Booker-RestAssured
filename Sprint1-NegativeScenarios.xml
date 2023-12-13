@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Positive Scenarios">
+    <test name="Check Positive Scenarios in Auth">
+        <classes>
+            <class name="testcases.TC01_Auth">
+                <methods>
+                    <exclude name="checkAuthWithValidData_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Check Positive Scenarios in Create Booking">
+        <classes>
+            <class name="testcases.TC02_CreateBooking">
+                <methods>
+                    <exclude name="createNewBookingWithValidData_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
